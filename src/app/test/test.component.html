@@ -1,0 +1,16 @@
+<h2 style="color:violet">Hi , this is my sample ng if directive!</h2>
+<div *ngIf="false">Display data</div>
+<p>ngIfElse Example</p>
+<div *ngIf="isLogin; else isLogout">
+    Hello you are logged in
+</div>
+<ng-template #isLogout>
+    You are logged out....
+</ng-template>
+<br><br>
+<h2>ngFor directive</h2>
+<ul>
+    <li *ngFor="let l of List">
+        {{l}}
+    </li>
+</ul>
