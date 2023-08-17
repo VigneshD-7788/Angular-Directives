@@ -1,0 +1,10 @@
+<div style="margin-left: 44%;margin-top: 1%;">
+    <form [formGroup]="formData" (ngSubmit)="OnClickSubmit(formData.value)">
+        <input type="text" name ="userName" placeholder="userName"
+        formControlName = "userName">
+        <br/>
+        <br/>
+        <input type = "submit" class="btn btn-primary" value = "Click here">
+    </form>
+<p>Textbox result is : {{userName}}</p>
+</div>
