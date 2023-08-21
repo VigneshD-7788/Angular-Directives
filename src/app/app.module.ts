@@ -7,13 +7,15 @@ import { TestComponent } from './test/test.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormSampleComponent } from './form-sample/form-sample.component';
 import { ReactFormsSampleComponent } from './react-forms-sample/react-forms-sample.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     FormSampleComponent,
-    ReactFormsSampleComponent
+    ReactFormsSampleComponent,
+    FormValidationComponent
   ],
   imports: [
     BrowserModule,
